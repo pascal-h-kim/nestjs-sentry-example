@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nestjs:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+     - "3020:3020" # React app will be served on localhost:3010
+    environment:
+     PORT: 3020

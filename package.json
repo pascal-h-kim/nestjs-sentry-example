@@ -1,6 +1,6 @@
 {
-  "name": "sentry-setup",
-  "version": "0.0.1",
+  "name": "nestjs-sentry",
+  "version": "1.0.0",
   "description": "",
   "author": "",
   "private": true,
